@@ -1,0 +1,11 @@
+const testID = 123;
+const testName = "regression";
+const durationSec = 3.2;
+const isPassed = false;
+const retryReason = null;
+let notes;
+const browsers = ["chrome","firefox"];
+const bug = { id : 12, severity : "High"};
+console.log(`${testID} | ${testName} | ${durationSec}s | ${isPassed}`);
+console.log(`${browsers[0]} | ${browsers[1]}|${bug.id} | ${bug.severity}`);
+console.log(typeof testID, typeof durationSec, typeof isPassed); console.log(typeof retryReason, typeof notes, typeof browsers, typeof bug);
