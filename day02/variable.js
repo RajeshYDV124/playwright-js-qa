@@ -1,6 +1,9 @@
 // const: value can't be replaced
 const name = "Rajesh";
 console.log(name);
+<<<<<<< HEAD
+
+=======
 
 // let: value can change
 let status = "Open";
@@ -31,3 +34,4 @@ var house = "Villa";
 let list = ["AAA"];
 list.push("BBB");
 console.log(list);
+>>>>>>> 8825dd3e82474bcbe41685a56b289d390b38a5d7
